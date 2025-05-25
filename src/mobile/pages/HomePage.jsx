@@ -35,7 +35,7 @@ const HomePage = () => {
     ["10:30 - 11:00", AccessTimeIcon, "Check Out", "Prepare for Check Out Villa", "warning", "https://media.cntraveller.com/photos/647703ead82f31f3aa46a9eb/16:9/w_2560%2Cc_limit/GettyImages-1419610165.jpeg", "https://maps.app.goo.gl/QSH2zNbpRwo9tNhh6"],
     ["11:00 - 14:00", FastfoodIcon, "Iga Bakar Sijangkung", "Lunch at Iga Bakar Sijangkung", "secondary", "https://salsawisata.com/wp-content/uploads/2023/10/Iga-Bakar-Si-Jangkung-PhotoRoom.jpg", "https://maps.app.goo.gl/svvr98mmamyQhFFG7"],
     ["14:00 - 17:00", DepartureBoardIcon, "OTW to Cikarang", "Departure to Mr. Faras' house", "info", "https://asset2.morefurniture.id/NEWS/2024/3/Desain%20Rumah%20Besar%20Mewah%20Sofa%20Samping%20Kolam.jpg", "https://maps.app.goo.gl/mBfcinc4H768WCAPA"],
-    ["17:00 - 18:30", DepartureBoardIcon, "Pasar Minggu Station", "Departure to Pasar Minggu Station", "info", "https://awsimages.detik.net.id/community/media/visual/2021/01/21/parkir-sepeda-di-stasiun-pasar-minggu-rabu-201_169.jpeg?w=1200", "https://maps.app.goo.gl/38CCaDJ5nusYvMzv6"],
+    ["17:00 - 18:30", DepartureBoardIcon, "Pasar Minggu Station", "Return Meeting Point", "info", "https://awsimages.detik.net.id/community/media/visual/2021/01/21/parkir-sepeda-di-stasiun-pasar-minggu-rabu-201_169.jpeg?w=1200", "https://maps.app.goo.gl/38CCaDJ5nusYvMzv6"],
   ];
 
   return (
