@@ -10,7 +10,7 @@ import TimelineOppositeContent, {
 import TimelineDot from '@mui/lab/TimelineDot';
 import Typography from '@mui/material/Typography';
 
-export default function TimelineItenary({ time, icon: Icon, title, description }) {
+export default function TimelineItenary({ time, icon: Icon, title, description, colorDot }) {
 
   return (
     <Timeline 
@@ -35,7 +35,7 @@ export default function TimelineItenary({ time, icon: Icon, title, description }
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
-          <TimelineDot color="primary">
+          <TimelineDot color={colorDot}>
             <Icon />
           </TimelineDot>
           <TimelineConnector />
