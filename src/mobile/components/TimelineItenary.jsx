@@ -17,13 +17,16 @@ export default function TimelineItenary({ time, icon: Icon, title, description }
       position="alternate"
       sx={{
         [`& .${timelineOppositeContentClasses.root}`]: {
-          flex: 0.1,
+          flex: 0.6,
+          ml: -5
         },
       }}
     >
       <TimelineItem>
         <TimelineOppositeContent
-          sx={{ m: 'auto 0' }}
+          sx={{ 
+            m: 'auto 0',
+          }}
           align="right"
           variant="body2"
           color="text.secondary"

@@ -39,7 +39,7 @@ const HomePage = () => {
   ];
 
   return (
-    <Box sx={{ p: 3 }}>
+    <Box sx={{ p: 0 }}>
       {/* 27 Juni 2025 */}
       <HeaderItenary dateText="📅 27 Juni 2025" />
 

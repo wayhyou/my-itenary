@@ -6,7 +6,7 @@ import Divider from '@mui/material/Divider';
 const HeaderItenary = ({ dateText }) => {
   return (
     <div>
-        <Typography variant="h5" sx={{ fontWeight: 'bold', mb: 2 }}>
+        <Typography variant="h5" sx={{ fontWeight: 'bold', mb: 2, pt: 3, pl: 3 }}>
           {dateText}
         </Typography>
         <Divider sx={{ mb: 3 }} />
