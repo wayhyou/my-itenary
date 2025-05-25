@@ -12,6 +12,7 @@ import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import Collapse from '@mui/material/Collapse';
+import MapIcon from '@mui/icons-material/Map';
 
 export default function TimelineItenary({ time, icon: Icon, title, description, colorDot, imageUrl, mapUrl }) {
   const [showDetail, setShowDetail] = useState(false);
@@ -81,6 +82,17 @@ export default function TimelineItenary({ time, icon: Icon, title, description, 
                   target="_blank"
                   rel="noopener noreferrer"
                   fullWidth // Biar tombol 100% juga
+                  startIcon={<MapIcon />}
+                  sx={{
+                    fontSize: {
+                      xs: '0.7rem',  // <= HP kecil
+                      sm: '0.85rem', // <= Tablet
+                      md: '1rem',    // <= Desktop
+                    },
+                    whiteSpace: 'nowrap', // ⛔️ Mencegah teks pecah ke bawah
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis', // Tambahkan elipsis jika terlalu panjang
+                  }}
                 >
                   Open in Google Maps
                 </Button>
